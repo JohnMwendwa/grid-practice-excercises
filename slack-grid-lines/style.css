@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.app-layout {
+  display: grid;
+  grid-template-columns: 100px 250px 1fr;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  text-align: center;
+}
+.teams {
+  padding: 1.5rem 1rem;
+  background-color: #333;
+  color: white;
+  grid-column: 1/2;
+  grid-row: 1/4;
+}
+.channels {
+  padding: 1.5rem 1rem;
+  background-color: red;
+  color: white;
+  grid-column: 2/3;
+  grid-row: 1/4;
+}
+.header {
+  padding: 1.5rem 1rem;
+  grid-column: 3;
+  grid-row: 1/2;
+}
+.message {
+  grid-column: 3;
+  grid-row: 2/3;
+  background-color: yellow;
+}
+.input {
+  grid-row: 3/4;
+  background-color: grey;
+  height: 40px;
+  display: flex;
+  padding: 2px;
+}
+.input input {
+  width: 100%;
+  border: 1px solid grey;
+  outline: 1px solid grey;
+  padding: 0 0.5rem;
+}
