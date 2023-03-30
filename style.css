@@ -29,7 +29,7 @@ main {
 .nav__item {
   counter-increment: fancy-link;
   display: flex;
-  align-items: end;
+  align-items: center;
   margin: 1rem 0;
 }
 
