@@ -9,12 +9,13 @@ Halfway I thought why not allow other developers to showcase their mastery too.
 1. Fork the repo
 2. Create a new folder in the root directory and add your grid project files there.
 3. After you've finished your project, add the link to your project file in the root index.html file using the following format.
+   **Do not add a forward slash at the start of the href link otherwise the link to your project won't work!**
 
 ```html
 ...
 
 <li class="nav__item">
-  <a href="/equal-height-cards/index.html" class="nav__link">
+  <a href="equal-height-cards/index.html" class="nav__link">
     Create cards with equal heights
   </a>
 </li>
@@ -26,7 +27,7 @@ Halfway I thought why not allow other developers to showcase their mastery too.
 
 ```html
 <li class="nav__item">
-  <a href="/equal-height-cards/index.html" class="nav__link">
+  <a href="equal-height-cards/index.html" class="nav__link">
     Create cards with equal heights - John Mwendwa
   </a>
 </li>
@@ -34,10 +35,15 @@ Halfway I thought why not allow other developers to showcase their mastery too.
 
 5. Try to use only grid for your layouts and design to see how uch you've mustered it.
 
-6. If you also want to showcase your CSS flexbox mastery, checkout my other repo on flexbox and be sure to contribute.
+6. If you also want to showcase your CSS flexbox mastery too, checkout my other repo on flexbox and be sure to contribute 👇
+   https://github.com/JohnMwendwa/flexbox-practice-excercises
+
+7. Don't forget to star the repo 😎
 
 ## Word to designers !
 
 If you have an extremely good eye for design, you can alter the root style.css stylesheet. Although all your alterations are not always guaranteed to be added and merged but it's always worth the effort.
 
 ## LIVE DEMO
+
+https://johnmwendwa.github.io/grid-practice-excercises
